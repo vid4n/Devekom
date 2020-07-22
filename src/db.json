@@ -1,0 +1,259 @@
+{
+    "kablovi": [
+        {
+            "id": 1,
+            "naziv": "PROVODNIK P/F(H07V-K)",
+            "slika": "https://devekom.rs/wp-content/uploads/2016/06/provodnik_p-f_h07v-k.jpg",
+            "tip": "instalacioni",
+            "opis": "Najveiša radna temperatura je 70°C.
+            U kratkom spoju (najduže 5 s), najviša 160°C.
+            Dozvoljena temperatura okoline:
+            pri polaganju i rukovanju, najniža + 5°C
+            Najmanji poluprečnik savijanja: 12 D – 15 D (D – prečnik kabela)",
+            "konstrukcija": "Provodnik: savitljiv provodnik od mekožarenih bakarnih žica klase 5, prema SRPS N.C0.015. Izolacija: PVC mešavina Boja izolacije može biti crna, svetlo plava, smeđa, zeleno/žuta.",
+            "primena": "U suvim prostorijama kada se zahteva naročita savitljivost. Za instalacije u cevima na i ispod maltera, kao i na izolacionim telima preko maltera. Nominalni poprečni preseci 0,5 i 0,75 mm² samo za instalacije opreme i distribucije."
+        },
+        {
+            "id": 2,
+            "naziv": "PROVODNIK P(H07-U,H07-R )",
+            "slika": "https://devekom.rs/wp-content/uploads/2016/06/provodnik_p_h07v-u_h07v-r.jpg",
+            "tip": "instalacioni",
+            "opis": "Dozvoljena temperatura provodnika:
+            – najviša radna temperatura 70°C
+            – u kratkom spoju (najduže 5 s), najviša 160°C
+            Dozvoljena temperatura okoline:
+            pri polaganju i rukovanju, najniža + 5°C
+            Najmanji poluprečnik savijanja: 12D -15D (D – prečnik kabela)",
+            "konstrukcija": "Provodnik: meko žaren bakarni provodnik, jednožični klasa 1 ili višežični klasa 2, prema SRPS N.C0.015. Izolacija: PVC mešavina Boja izolacije može biti crna, svetlo plava, smeđa, zeleno/žuta",
+            "primena": "U suvim prostorijama za trajno polaganje u cevima, iznad ili ispod maltera, kao i na izolacionim telima iznad maltera."
+        },
+        {
+            "id": 3,
+            "naziv": "KABL PP/L (H03VV-F)",
+            "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_pp-l_h03vv-f.jpg",
+            "tip": "instalacioni",
+            "opis": "Dozvoljena temperatura provodnika:
+            – najviša radna temperatura 70°C
+            – u kratkom spoju (najduže 5 s) najviša 160°C
+            Dozvoljena temperatura okoline:
+            pri polaganju i rukovanju, najniža + 5°C
+            Najmanji poluprečnik savijanja: 7,5D (D – prečnik kabela)",
+            "konstrukcija": "Provodnik: savitljiv provodnik od meko žarenih bakarnih žica klase 5, prema SRPS N.C0.015. Izolacija: sloj od PVC mešavine. Jezgro: 2 do 4 žile međusobno použene. Plašt: PVC mešavina. Ispod plašta se može postaviti separacioni sloj. Standardna boja plašta: bela, siva ili crna",
+            "primena": "U suvim prostorijama za priključak malih i laganih prenosnih trošila, kao što su prenosne svetiljke, ventilatori, radio i TV uređaji kancelarijske mašine i sl, kada provodnik može biti izložen malim mehaničkim naprezanjima."
+        },
+        {
+            "id": 4,
+            "naziv": "KABL PP/J (H05VV-F)",
+            "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_pp-j_h05vv-f.jpg",
+            "tip": "instalacioni",
+            "opis": "Dozvoljena temperatura provodnika:
+            – najviša radna temperatura 70°C
+            – u kratkom spoju (najduže 5 s) najviša 160°C
+            Dozvoljena temperatura okoline:
+            pri polaganju i rukovanju, najniža + 5°C
+            Najmanji poluprečnik savijanja: 7.5D (D – prečnik kabela)",
+            "konstrukcija": "Provodnik: savitljiv provodnik od mekožarenih bakarnih žica klase 5, prema SRPS N.C0.015. Izolacija: sloj od PVC mešavine. Jezgro: 2 do 5 žila međusobno použene. Plašt: PVC mešavina. Ispod plašta se može postaviti separacioni sloj. Boja plašta može biti bela, siva ili crna",
+            "primena": "Za priključak prenosnih trošila pod otežim uslovima rada, kao što su mašine za pranje rublja, usisivači. Za priključak termičkih aparata i uređaja u domaćinstvu dozvoljen je samo pod uslovom da ne može da dođe u dodir sa delovima čija je temperatura veća od 85ºC."
+        },
+        {
+            "id": 5,
+            "naziv": "KABL PPY (NYM)",
+            "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_pp_nym.jpg",
+            "tip": "instalacioni",
+            "opis": "Dozvoljena temperatura provodnika:
+            – najviša radna temperatura 70C
+            – u kratkom spoju (najduže 5 s), najviša 160C
+            Dozvoljena temperatura okoline:
+            pri polaganju i rukovanju, najniža + 5C
+            Najmanji poluprečnik savijanja za trajno položen izolovani provodnik: 6D (D – prečnik kabela)",
+            "konstrukcija": "Provodnik: od meko žarenog bakra, jednožični klasa1 ili uže klase 2, prema SRPS N.C0.015. Izolacija: PVC mešavina. Jezgro: dve ili više žila međusobno použene. Ispuna: sloj od nevulkanizovane gumene mešavine postavljen preko jezgra. Plašt: sloj od PVC mešavine. Boja plašta je siva.",
+            "primena": "U suvim i vlažnim prostorijama i u slobodnom prostoru za polaganje na, u i ispod maltera. Pogodan za instalacije u prehranbenoj industriji, perionicama i sl."
+        },
+        {
+            "id": 6,
+            "naziv": "KABL P/L (H03VH-H)",
+            "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_p-l_h03vh-h.jpg",
+            "tip": "instalacioni",
+            "opis": "Dozvoljena temperatura provodnika:
+            – najviša radna temperatura 70°C
+            – u kratkom spoju (najduže 5 s) najviše 160°C
+            Dozvoljena temperatura okoline:
+            pri polaganju i rukovanju, najniža + 5°C
+            Najmanji poluprečnik savijanja: 12D (D – prečnik kabela)",
+            "konstrukcija": "Provodnik: savitljiv provodnik od mekožarenih bakarnih žica klase 5, prema SRPS N.C0.015. Izolacija: zajednički sloj PVC mešavine nanešen preko dva ili tri paralelno postavljena provodnika tako da se žile mogu razdvojiti, a da se ne ošteti izolacija. Boja plašta nije odrđena, mogu biti sve boje, a može biti i proziran.",
+            "primena": "U suvim prostorijama, za priključak malih prenosivih netermičkih aparata, kao što su stone lampe, radio aparati, stoni ventilatori i sl. Na mestu uvoda u priključne naprave ili neposredno u prenosna trošila preporučljivo je staviti zaštitne uvodnice od gume ili termoplastičnih materijala."
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        {
+            "id": ,
+            "naziv": "",
+            "slika": "",
+            "tip": "",
+            "opis": "",
+            "konstrukcija": "",
+            "primena": ""
+        },
+        
+    ]
+}

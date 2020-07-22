@@ -1,0 +1,11 @@
+.kartice{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kartica{
+    margin: 30px;
+    margin-top: 0px;
+}
