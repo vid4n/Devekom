@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  public vrstaKabla: string;
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
 
+  onClick(vrsta: HTMLLinkElement){
+    console.log(vrsta.href);
+  }
+
+  
 }

@@ -11,6 +11,7 @@ import { GumiraniComponent } from './components/gumirani/gumirani.component';
 import { EnergetskiComponent } from './components/energetski/energetski.component';
 import { BezhalogeniComponent } from './components/bezhalogeni/bezhalogeni.component';
 import { TelekomunikacioniComponent } from './components/telekomunikacioni/telekomunikacioni.component';
+import { KorpaComponent } from './components/korpa/korpa.component';
 
 
 const routes: Routes = [
@@ -34,6 +35,10 @@ const routes: Routes = [
   {
     path: 'kontakt',
     component: KontaktComponent,
+  },
+  {
+    path: 'korpa',
+    component: KorpaComponent,
   },
   {
     path: 'instalacioni',

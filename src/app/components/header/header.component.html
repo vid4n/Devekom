@@ -15,21 +15,15 @@
                   Kablovi
                 </a>    
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="instalacioni">Instalacioni kablovi</a>
-                  <a class="dropdown-item" href="koaksijalni">Koaksijalni kablovi</a>
-                  <a class="dropdown-item" href="signalni">Signalni kablovi</a>
-                  <a class="dropdown-item" href="gumirani">Gumirani kablovi</a>
-                  <a class="dropdown-item" href="energetski">Energetski kablovi</a>
-                  <a class="dropdown-item" href="bezhalogeni">Bezhalogeni kablovi</a>
-                  <a class="dropdown-item" href="telekomunikacioni">Telekomunikacioni kablovi</a>
+                  <a class="dropdown-item" #vrsta href="instalacioni" value="instalacioni" (click)="onClick(vrsta)" data-value="instalacioni">Instalacioni kablovi</a>
+                  <a class="dropdown-item" #vrsta href="koaksijalni" value="koaksijalni" (click)="onClick(vrsta)" data-value="koaksijalni">Koaksijalni kablovi</a>
+                  <a class="dropdown-item" #vrsta href="signalni" value="signalni" (click)="onClick(vrsta)" data-value="signalni">Signalni kablovi</a>
+                  <a class="dropdown-item" #vrsta href="gumirani" value="gumirani" (click)="onClick(vrsta)" data-value="gumirani">Gumirani kablovi</a>
+                  <a class="dropdown-item" #vrsta href="energetski" value="energetski" (click)="onClick(vrsta)" data-value="energetski">Energetski kablovi</a>
+                  <a class="dropdown-item" #vrsta href="bezhalogeni" value="bezhalogeni" (click)="onClick(vrsta)" data-value="bezhalogeni">Bezhalogeni kablovi</a>
+                  <a class="dropdown-item" #vrsta href="telekomunikacioni" value="telekomunikacioni" (click)="onClick(vrsta)" data-value="telekomunikacioni">Telekomunikacioni kablovi</a>
                 </div>
             </li>
-            
-            <li class="nav-item dropdown">
-              
-            </li>
-            
-
             <li class="nav-item">
               <a class="nav-link" href="elektromaterijal">Elektromaterijal</a>
             </li>
@@ -38,7 +32,10 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="kontakt">Kontakt</a>
-              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="korpa">Korpa</a>
+            </li>
           </ul>
         </div>
         <span class="navbar-text">

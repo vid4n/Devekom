@@ -22,6 +22,13 @@ import { EnergetskiComponent } from './components/energetski/energetski.componen
 import { BezhalogeniComponent } from './components/bezhalogeni/bezhalogeni.component';
 import { TelekomunikacioniComponent } from './components/telekomunikacioni/telekomunikacioni.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { KabloviService } from './services/kablovi.service';
+import { HttpClientModule } from '@angular/common/http';
+import { KorpaComponent } from './components/korpa/korpa.component';
+
+import { StoreModule } from '@ngrx/store'; // Make sure you import from @ngrx/store
+import { kabloviReducer } from './store/reducers/kablovi.reducer';
+import { korpaReducer } from './store/reducers/korpa.reducer';
 
 @NgModule({
   declarations: [
@@ -39,17 +46,20 @@ import { FooterComponent } from './components/footer/footer.component';
     EnergetskiComponent,
     BezhalogeniComponent,
     TelekomunikacioniComponent,
-    FooterComponent
+    FooterComponent,
+    KorpaComponent
   ],
   imports: [
     BrowserModule,
+    StoreModule.forRoot({ kablovi: kabloviReducer, korpa: korpaReducer}),
     AppRoutingModule,
+    HttpClientModule,
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
     ModalModule.forRoot(),
     CommonModule,
   ],
-  providers: [],
+  providers: [KabloviService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

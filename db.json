@@ -5,11 +5,7 @@
             "naziv": "PROVODNIK P/F(H07V-K)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/provodnik_p-f_h07v-k.jpg",
             "tip": "instalacioni",
-            "opis": "Najveiša radna temperatura je 70°C.
-            U kratkom spoju (najduže 5 s), najviša 160°C.
-            Dozvoljena temperatura okoline:
-            pri polaganju i rukovanju, najniža + 5°C
-            Najmanji poluprečnik savijanja: 12 D – 15 D (D – prečnik kabela)",
+            "opis": "Najveiša radna temperatura je 70°C. U kratkom spoju (najduže 5 s), najviša 160°C. Dozvoljena temperatura okoline: pri polaganju i rukovanju, najniža + 5°C Najmanji poluprečnik savijanja: 12 D – 15 D (D – prečnik kabela)",
             "konstrukcija": "Provodnik: savitljiv provodnik od mekožarenih bakarnih žica klase 5, prema SRPS N.C0.015. Izolacija: PVC mešavina Boja izolacije može biti crna, svetlo plava, smeđa, zeleno/žuta.",
             "primena": "U suvim prostorijama kada se zahteva naročita savitljivost. Za instalacije u cevima na i ispod maltera, kao i na izolacionim telima preko maltera. Nominalni poprečni preseci 0,5 i 0,75 mm² samo za instalacije opreme i distribucije."
         },
@@ -18,12 +14,7 @@
             "naziv": "PROVODNIK P(H07-U,H07-R )",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/provodnik_p_h07v-u_h07v-r.jpg",
             "tip": "instalacioni",
-            "opis": "Dozvoljena temperatura provodnika:
-            – najviša radna temperatura 70°C
-            – u kratkom spoju (najduže 5 s), najviša 160°C
-            Dozvoljena temperatura okoline:
-            pri polaganju i rukovanju, najniža + 5°C
-            Najmanji poluprečnik savijanja: 12D -15D (D – prečnik kabela)",
+            "opis": "Dozvoljena temperatura provodnika: – najviša radna temperatura 70°C– u kratkom spoju (najduže 5 s), najviša 160°C Dozvoljena temperatura okoline:  Najmanji poluprečnik savijanja: 12D -15D (D – prečnik kabela)",
             "konstrukcija": "Provodnik: meko žaren bakarni provodnik, jednožični klasa 1 ili višežični klasa 2, prema SRPS N.C0.015. Izolacija: PVC mešavina Boja izolacije može biti crna, svetlo plava, smeđa, zeleno/žuta",
             "primena": "U suvim prostorijama za trajno polaganje u cevima, iznad ili ispod maltera, kao i na izolacionim telima iznad maltera."
         },
@@ -32,12 +23,7 @@
             "naziv": "KABL PP/L (H03VV-F)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_pp-l_h03vv-f.jpg",
             "tip": "instalacioni",
-            "opis": "Dozvoljena temperatura provodnika:
-            – najviša radna temperatura 70°C
-            – u kratkom spoju (najduže 5 s) najviša 160°C
-            Dozvoljena temperatura okoline:
-            pri polaganju i rukovanju, najniža + 5°C
-            Najmanji poluprečnik savijanja: 7,5D (D – prečnik kabela)",
+            "opis": "Dozvoljena temperatura provodnika:  – najviša radna temperatura 70°C – u kratkom spoju (najduže 5 s) najviša 160°C  Dozvoljena temperatura okoline: pri polaganju i rukovanju, najniža + 5°C  Najmanji poluprečnik savijanja: 7,5D (D – prečnik kabela)",
             "konstrukcija": "Provodnik: savitljiv provodnik od meko žarenih bakarnih žica klase 5, prema SRPS N.C0.015. Izolacija: sloj od PVC mešavine. Jezgro: 2 do 4 žile međusobno použene. Plašt: PVC mešavina. Ispod plašta se može postaviti separacioni sloj. Standardna boja plašta: bela, siva ili crna",
             "primena": "U suvim prostorijama za priključak malih i laganih prenosnih trošila, kao što su prenosne svetiljke, ventilatori, radio i TV uređaji kancelarijske mašine i sl, kada provodnik može biti izložen malim mehaničkim naprezanjima."
         },
@@ -46,12 +32,7 @@
             "naziv": "KABL PP/J (H05VV-F)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_pp-j_h05vv-f.jpg",
             "tip": "instalacioni",
-            "opis": "Dozvoljena temperatura provodnika:
-            – najviša radna temperatura 70°C
-            – u kratkom spoju (najduže 5 s) najviša 160°C
-            Dozvoljena temperatura okoline:
-            pri polaganju i rukovanju, najniža + 5°C
-            Najmanji poluprečnik savijanja: 7.5D (D – prečnik kabela)",
+            "opis": "Dozvoljena temperatura provodnika:  – najviša radna temperatura 70°C – u kratkom spoju (najduže 5 s) najviša 160°C Dozvoljena temperatura okoline: pri polaganju i rukovanju, najniža + 5°C  Najmanji poluprečnik savijanja: 7.5D (D – prečnik kabela)",
             "konstrukcija": "Provodnik: savitljiv provodnik od mekožarenih bakarnih žica klase 5, prema SRPS N.C0.015. Izolacija: sloj od PVC mešavine. Jezgro: 2 do 5 žila međusobno použene. Plašt: PVC mešavina. Ispod plašta se može postaviti separacioni sloj. Boja plašta može biti bela, siva ili crna",
             "primena": "Za priključak prenosnih trošila pod otežim uslovima rada, kao što su mašine za pranje rublja, usisivači. Za priključak termičkih aparata i uređaja u domaćinstvu dozvoljen je samo pod uslovom da ne može da dođe u dodir sa delovima čija je temperatura veća od 85ºC."
         },
@@ -60,12 +41,7 @@
             "naziv": "KABL PPY (NYM)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_pp_nym.jpg",
             "tip": "instalacioni",
-            "opis": "Dozvoljena temperatura provodnika:
-            – najviša radna temperatura 70C
-            – u kratkom spoju (najduže 5 s), najviša 160C
-            Dozvoljena temperatura okoline:
-            pri polaganju i rukovanju, najniža + 5C
-            Najmanji poluprečnik savijanja za trajno položen izolovani provodnik: 6D (D – prečnik kabela)",
+            "opis": "Dozvoljena temperatura provodnika: – najviša radna temperatura 70C – u kratkom spoju (najduže 5 s), najviša 160C Dozvoljena temperatura okoline: pri polaganju i rukovanju, najniža + 5C   Najmanji poluprečnik savijanja za trajno položen izolovani provodnik: 6D (D – prečnik kabela)",
             "konstrukcija": "Provodnik: od meko žarenog bakra, jednožični klasa1 ili uže klase 2, prema SRPS N.C0.015. Izolacija: PVC mešavina. Jezgro: dve ili više žila međusobno použene. Ispuna: sloj od nevulkanizovane gumene mešavine postavljen preko jezgra. Plašt: sloj od PVC mešavine. Boja plašta je siva.",
             "primena": "U suvim i vlažnim prostorijama i u slobodnom prostoru za polaganje na, u i ispod maltera. Pogodan za instalacije u prehranbenoj industriji, perionicama i sl."
         },
@@ -74,12 +50,7 @@
             "naziv": "KABL P/L (H03VH-H)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_p-l_h03vh-h.jpg",
             "tip": "instalacioni",
-            "opis": "Dozvoljena temperatura provodnika:
-            – najviša radna temperatura 70°C
-            – u kratkom spoju (najduže 5 s) najviše 160°C
-            Dozvoljena temperatura okoline:
-            pri polaganju i rukovanju, najniža + 5°C
-            Najmanji poluprečnik savijanja: 12D (D – prečnik kabela)",
+            "opis": "Dozvoljena temperatura provodnika:  – najviša radna temperatura 70°C – u kratkom spoju (najduže 5 s) najviše 160°C  Dozvoljena temperatura okoline:   pri polaganju i rukovanju, najniža + 5°C. Najmanji poluprečnik savijanja: 12D (D – prečnik kabela)",
             "konstrukcija": "Provodnik: savitljiv provodnik od mekožarenih bakarnih žica klase 5, prema SRPS N.C0.015. Izolacija: zajednički sloj PVC mešavine nanešen preko dva ili tri paralelno postavljena provodnika tako da se žile mogu razdvojiti, a da se ne ošteti izolacija. Boja plašta nije odrđena, mogu biti sve boje, a može biti i proziran.",
             "primena": "U suvim prostorijama, za priključak malih prenosivih netermičkih aparata, kao što su stone lampe, radio aparati, stoni ventilatori i sl. Na mestu uvoda u priključne naprave ili neposredno u prenosna trošila preporučljivo je staviti zaštitne uvodnice od gume ili termoplastičnih materijala."
         },
@@ -88,11 +59,7 @@
             "naziv": "KABL RG 59 HF",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_rg_59_hf.jpg",
             "tip": "koaksijalni",
-            "opis": "Koriste se kao kablovi za konekciju u slucajevima kada se zahteva slabo prigusivanje za kucne CATV, CCTV, kablovsku TV i satelitski system. Ovi bezhalogeni kablovi se koriste u zgradama u kojima je fluktuacija ljudi veoma intenzivna poput hotela, skola, bolnica, soping centara i slicno. Imaju nisku gustinu dima i ne emituju otrovne I korozivne gasove prilikom pozara. Testirani su prema IEC 60332-1.
-            Protivpozarni test IEC / EN 60332-1
-            Test korozivnog gasa IEC 60754-2 / EN 50267(HD 602)
-            Test gustine dima IEC / EN 61034-2 / EN 50268 (HD 606) / BS 7622
-            Referentni Standardi TS 2637 IEC 60096-1, EN 50117, TS 5757 IEC 60096-3",
+            "opis": "Koriste se kao kablovi za konekciju u slucajevima kada se zahteva slabo prigusivanje za kucne CATV, CCTV, kablovsku TV i satelitski system. Ovi bezhalogeni kablovi se koriste u zgradama u kojima je fluktuacija ljudi veoma intenzivna poput hotela, skola, bolnica, soping centara i slicno. Imaju nisku gustinu dima i ne emituju otrovne I korozivne gasove prilikom pozara. Testirani su prema IEC 60332-1. Protivpozarni test IEC / EN 60332-1.   Test korozivnog gasa IEC 60754-2 / EN 50267(HD 602). Test gustine dima IEC / EN 61034-2 / EN 50268 (HD 606) / BS 7622 Referentni Standardi TS 2637 IEC 60096-1, EN 50117, TS 5757 IEC 60096-3",
             "konstrukcija": "Konstrukcija Provodnik Izolacija 1.Zastitni sloj 2.Zastitni sloj Omotac RG 59 / 4 FHF ø 0.81 mm Eletroliticki zareni bakar ø 3.60 mm Polietilenska pena Al-Pes-Al Folija100% Stepen zastite Pletenice od pocinkovanog bakra 55% zastite ø 5.80 mm HFFR Beli (EN 50290-2 / VDE 0207/ RG 59 / 6 FHF ø 0.81 mm Elektroliticki zareni bakar ø 3.60 mm Polietilenska pena Cu-Pes Folija 100% Stepen zastite Pletenice od zarenog bakra 55% zastite ø 5.80 mm HFFR Beli (EN 50290-2 / VDE 0207 / Minimalni radijus savijanja HD624.7 S1 HM2) 58 mm HD624.7 S1 HM2) 58 mm Tezina bakra (Kg/Km) 12 12 Tezina kabla (Kg/Km) 41 41 Standardno pakovanje 100 – 500 – 1000 m 100 – 500 – 1000 m",
             "primena": "Namena Koriste se kao kablovi za konekciju u slucajevima kada se zahteva slabo prigusivanje za kucne CATV, CCTV, kablovsku TV i satelitski system. Ovi bezhalogeni kablovi se koriste u zgradama u kojima je fluktuacija ljudi veoma intenzivna poput hotela, skola, bolnica, soping centara i slicno. Imaju nisku gustinu dima i ne emituju otrovne I korozivne gasove prilikom pozara. Testirani su prema IEC 60332-1."
         },
@@ -101,9 +68,7 @@
             "naziv": "KABL PP00 (NYY)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/02_kabl_pp00_nyy.jpg",
             "tip": "signalni",
-            "opis": "Najviša radna temperature provodnika: 70°C
-            Najniža dozvoljena temperatura okoline: pri polaganju i rukovanju +5°C
-            Najmanji poluprečnik savijanja: 15D (D – prečnik kabela)",
+            "opis": "Najviša radna temperature provodnika: 70°C.  Najniža dozvoljena temperatura okoline: pri polaganju i rukovanju +5°C. Najmanji poluprečnik savijanja: 15D (D – prečnik kabela)",
             "konstrukcija": "Provodnik: žica od mekožarenog bakra. Izolacija: PVC sloj. Jezgro: žile su međusobno použene po koncentričnim slojevima. Ispuna: omot od termoplastičnih traka; za teže uslove rada separator i ekstrudovan sloj od nevulkanizovane gumene mešavine. Plašt: sloj od PVC mešavine. Boja plašta crna.",
             "primena": "Polaganje u zemlju, kablovske kanale i na otvorenom prostoru u industriji, elektranama, saobraćaju, za povezivanje signalnih i komandnih uređaja kada se ne očekuju mehanička oštećenja. Kod dužeg paralelnog vođenja sa energetskim kablovima i vazdušnim vodovima voditi računa o uticaju istih na karakteristike prenošenih signala."
         },
@@ -121,14 +86,7 @@
             "naziv": "KABL ZN-S (H01N2-D)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/03_kabl_zn-s_h01n2-d.jpg",
             "tip": "gumirani",
-            "opis": "Dozvoljena temperatura provodnika:
-            – u radu (pri stalnom opterećenju), najviše +85oC
-            – u kratkom spoju (najduže 5 s), najviše +250oC
-            Dozvoljena temperatura okoline:
-            – pri postavljanju, najniža – 20oC
-            – pri skladištenju, + 10 do + 40oC
-            Poluprečnik savijanja: najmanje 4D (D – prečnik kabela)
-            Otpornost na gorenje: HD 405.1",
+            "opis": "Dozvoljena temperatura provodnika: – u radu (pri stalnom opterećenju), najviše +85oC – u kratkom spoju (najduže 5 s), najviše +250oC. Dozvoljena temperatura okoline: – pri postavljanju, najniža – 20oC – pri skladištenju, + 10 do + 40oC. Poluprečnik savijanja: najmanje 4D (D – prečnik kabela). Otpornost na gorenje: HD 405.1",
             "konstrukcija": "Provodnik: finožični bakarni provodnik, Plašt: na bazi polihloroprenskog kaučuka, (DINVDE 0207 T21, EM5) otporan na ulje, ne širi plamen.",
             "primena": "Kabel se može koristiti u suvim i vlažnim prostorijama i na otvorenom prostoru, za mašinsko i ručno zavarivanje."
         },
@@ -137,17 +95,7 @@
             "naziv": "KABL GG-J (H05RN-F)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/01_kabl_gg-j_h05rn-f.jpg",
             "tip": "gumirani",
-            "opis": "Dozvoljena temperatura provodnika:
-            – u radu (pri stalnom opterećenju), najviše + 60oC
-            – u kratkom spoju (najduže 5 s), najviše + 200oC
-            Dozvoljena temperatura okoline:
-            – trajno položen, najniža – 35oC
-            – u pokretu, najniža – 25oC
-            Poluprečnik savijanja najmanje
-            – za višežilni, 3D
-            – za jednožilni, 4D
-            (D – prečnik kabela)
-            Otpornost na gorenje: HD 405.1",
+            "opis": "Dozvoljena temperatura provodnika: – u radu (pri stalnom opterećenju), najviše + 60oC – u kratkom spoju (najduže 5 s), najviše + 200oC. Dozvoljena temperatura okoline: – trajno položen, najniža – 35oC – u pokretu, najniža – 25oC. Poluprečnik savijanja najmanje – za višežilni, 3D – za jednožilni, 4D. (D – prečnik kabela).  Otpornost na gorenje: HD 405.1",
             "konstrukcija": "Provodnik: finožični bakarni provodnik (klasa 5, DINVDE 0295), Izolacija: na bazi EPR kaučuka, (DINVDE 0207 T20, EI4) Boja žile za jednožilni: smeđa Plašt:na bazi polihloroprenskog kaučuka, (DINVDE 0207 T21, EM2) otporan na ulje, ne širi plamen Boja plašta za jednožilni: crna ili zelena.",
             "primena": "Kabel se može koristiti u zatvorenim prostorijama za priključenje aparata za domaćinstvo i lakih električnih uređaja pri malim mehaničkim naprezanjima. Jednožilni kabel se koristi za niz sijalica za novogodišnju jelku i sličnu namenu. Nije namenjen za trajnu upotrebu na otvorenom prostoru."
         },
@@ -156,14 +104,7 @@
             "naziv": "KABL PP 00 (A) (NYY, NAYY)",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/01_kabl_pp_00_a_nyy_nayy.jpg",
             "tip": "energetski",
-            "opis": "Dozvoljena temperatura provodnika:
-            – najviša radna temperatura + 70°C
-            – u kratkom spoju (najduže 5 s), najviša 160°C
-            Dozvoljena temperatura okoline:
-            pri polaganju i rukovanju najniža + 5°C
-            Najmanji poluprečnik savijanja:
-            – jednožilni kablovi 15D (D – prečnik kabela)
-            – višežilni kablovi 12 D",
+            "opis": "Dozvoljena temperatura provodnika: – najviša radna temperatura + 70°C – u kratkom spoju (najduže 5 s), najviša 160°C. Dozvoljena temperatura okoline: pri polaganju i rukovanju najniža + 5°C. Najmanji poluprečnik savijanja: – jednožilni kablovi 15D (D – prečnik kabela) – višežilni kablovi 12 D",
             "konstrukcija": "Provodnik: žica ili uže klase 2, prema SRPS N.C0.015, izrađeno od mekožarenog bakra za kabel tipa PP 00, aluminijuma za tip PP 00-A. Izolacija: PVC masa. Jezgro: dve ili više žila međusobno použene. Ispuna: sloj od nevulkanizovane gumene mešavine postavljen preko jezgra. Kod kablova sa provodnicima sektorskog oblika (oznaka S u tabeli) omot od termoplastičnih traka. Plašt: sloj od PVC mase. Boja plašta crna",
             "primena": "Za polaganje u zatvorenim prostorijama, kablovskim kanalima, u zemlji i na otvorenom prostoru, u mesnim i industrijskim mrežama, elektranama i rasklopnim postrojenjima kada ne postoji opasnost mehaničkih oštećenja kabela"
         },
@@ -172,10 +113,7 @@
             "naziv": "KABL J-H(ST)H",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_j-hsth.jpg",
             "tip": "bezhalogeni",
-            "opis": "Dozvoljene temperature:
-            – pripolaganju – 5°C do + 50°C
-            – pre i posle polaganja do + 70°C
-            Poluprečnik savijanja, najmanje 7,5 D (D – prečnik kabela)",
+            "opis": "Dozvoljene temperature:  – pripolaganju – 5°C do + 50°C – pre i posle polaganja do + 70°C. Poluprečnik savijanja, najmanje 7,5 D (D – prečnik kabela)",
             "konstrukcija": "Izolacija: bezhalogeni polimer. Elementi upredanja: parice, osim za dve parice koje su upredene u zvezda četvorku. Jezgro kabla: koncentrično použeno. Pojasna izolacija: termoplastične trake u više slojeva. Ekran: kaširana aluminijumska traka ispod koje je upušten Cu provodnik za kontinuitet ekrana. Omotač: bezhalogen polimer.",
             "primena": "Za instalacioni vod ili uvod više vodova u zgrade. Zamenjuje J-Y(St)Y … Lg. Osnovne osobine ove kablova u uslovima izlaganja vatri su da: – ne šire plamen (ispitivanje prema DIN VDE 0472 deo 804 i IEC 60332-3 metodaC), – ne razvijaju korozivne gasove (ispitivanje prema DIN VDE 0472 deo 813 i IEC 61034 IEC 60754-2), – imaju nisku gustinu dima u procesu gorenja (ispitivanje prema DIN VDE 0472 deo 816 metoda C), – ne sadrže halogene elemente (ispitivanje prema DIN VDE 0472 deo 815)."
         },
@@ -184,16 +122,7 @@
             "naziv": "KABL N2XH",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/kabl_n2xh.jpg",
             "tip": "bezhalogeni",
-            "opis": "Dozvoljena temperatura provodnika:
-            – u radu (pri stalnom opterećenju), najviša 90°C
-            – u kratkom spoju (najduže 5 s), najviša 250°C
-            – kratkotrajno preopterećenje u nužnom pogonu, do 230ºC.
-            Dozvoljena temperatura okoline:
-            – pri polaganju i rukovanju, -5°C do +50°C
-            – za trajno položene kablove, -30°C do +90°C
-            Najmanji poluprečnik savijanja:
-            – za jednožilne kablove, 15D (D – prečnik kabela)
-            – za višežilne i mnogožilne kablove,12D (D – prečnik kabela)",
+            "opis": "Dozvoljena temperatura provodnika: – u radu (pri stalnom opterećenju), najviša 90°C – u kratkom spoju (najduže 5 s), najviša 250°C – kratkotrajno preopterećenje u nužnom pogonu, do 230ºC.",
             "konstrukcija": "Provodnik: bakarni provodnik klase 1 ili 2 prema DIN VDE 0295 Izolacija: umrežen polietilen (XPE) Jezgro: kod višežilnih kablova žile međusobno použene Ispuna: materijal bez halogena, otporan na dejstvo plamena Plašt: slabo-goriva bezhalogena mešavina na bazi poliolefina. Standardna boja plašta: crna",
             "primena": "Za trajno polaganja u suvim i vlažnim prostorijma preko, na, u i ispod maltera. U zemlju ili slobodno u vazduhu se polažu u cevima. Namenjeni su za objekte gde boravi velik broj ljudi i/ili se nalaze vredna materijlna dobra, kao što su industrijska postrojenja, hoteli, aerodromi, robne kuće, bolnice, bioskopi i sl. Ponašanje u uslovima požara: – ne širi plamen, zadovoljava ispitivanje prema prema standardu IEC 332-3 i VDE 0472 deo 804, kat C – ima malu gustinu dima, IEC 61034 i VDE 0472 deo816, – ne sadrži korozivne gasove, zadovoljava ispitivanja prema IEC 60754-2 i VDE 0472 deo 813."
         },
@@ -202,9 +131,7 @@
             "naziv": "Žica TI 20",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/06_ica_ti_20.jpg",
             "tip": "telekomunikacioni",
-            "opis": "Dozvoljene temperatura:
-            – pri polaganju – 5°C do + 50°C
-            – pre i posle polaganja do + 70°C",
+            "opis": "Dozvoljene temperatura: – pri polaganju – 5°C do + 50°C – pre i posle polaganja do + 70°C",
             "konstrukcija": "Provodnik: meko žarena bakarna ili bakarna kalajisana žica prečnika 0,5; 0,6 i 0,8 mm. Izolacija: PVC mešavina. Elementi upredanja: parica, trojka, četvorka.",
             "primena": "Za telefonske kućne instalacije, postavlja se u cevi. Može se koristiti za priključivanje zvučnika, signalnih uređaja, za ranžiranje i šemiranje kablovskih razdelnika."
         },
@@ -213,9 +140,7 @@
             "naziv": "KABL J-Y(ST)Y",
             "slika": "https://devekom.rs/wp-content/uploads/2016/06/01_kabl_j-ysty_..._ld.jpg",
             "tip": "telekomunikacioni",
-            "opis": "Dozvoljene temperatura: 
-            – pri polaganju – 5°C do + 50°C 
-            – pre i posle polaganja do + 70°C",
+            "opis": "Dozvoljene temperatura:  pri polaganju – 5°C do + 50°C  – pre i posle polaganja do + 70°C",
             "konstrukcija": "Provodnik: meko žarena bakarna žica prečnika 0,6 i 0,8 mm. Izolacija: PVC mešavina tip YI1, prema VDE 0207/3. Elementi upredanja: parice, osim za dve parice koje su upredene u zvezda četvorku. Jezgro kabla: koncentrično použeno. Pojasna izolacija: termoplastična traka. Ekran: kaširana aluminijumska traka ispod koje je upušten Cu provodnik za kontinuitet ekrana. Plašt: PVC mešavina tip YM1, prema VDE 0207/3. Boja plašta siva.",
             "primena": "Za instalacioni vod ili uvod više vodova u zgrade"
         }
