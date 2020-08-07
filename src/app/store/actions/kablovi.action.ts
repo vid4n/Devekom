@@ -20,6 +20,10 @@ export const sacuvajKablove = createAction(  //cuva sve kablove
     props<{ kabloviIds: Number[] }>()
   );
 
+  export const izbaciKablove = createAction(
+    '[kablovi component]'
+  );
+
   
 //   export const saveMedicines = createAction(
 //     '[pharmacies component] save medicines in store',

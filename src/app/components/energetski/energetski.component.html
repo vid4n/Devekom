@@ -1,1 +1,10 @@
-<p>energetski works!</p>
+<div class="kablovi mb-3">
+    <div *ngFor="let kabl of konacniKablovi" class="card" style="width: 20rem;">
+        <img class="card-img-top" src="{{ kabl.slika }}" alt="Card image cap">
+        <div class="card-body">
+          <h3 class="card-title">{{ kabl.naziv }}</h3>
+          <p class="card-text">{{ kabl.opis }}</p>
+          <button href="#" class="btn btn-primary">Dodaj u korpu </button>
+        </div>
+    </div>
+</div>

@@ -14,12 +14,12 @@ export class PocetnaComponent implements OnInit {
   constructor(private _service: KabloviService) { }
 
   ngOnInit(): void {
-    this._service
-      .fetchKablById(1)
-      .subscribe((data: Kabl) => {
-      this.kabl = data;
-      console.log(this.kabl);
-    })
-  }
+    // this._service
+    //   .fetchKablById(1)
+    //   .subscribe((data: Kabl) => {
+    //   this.kabl = data;
+    //   console.log(this.kabl);
+    //})
+  } 
 
 }

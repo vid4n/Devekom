@@ -4,7 +4,7 @@
 import { createReducer, on, Action } from '@ngrx/store';
 import { createEntityAdapter, EntityState, EntityAdapter } from '@ngrx/entity';
 import Kabl from 'src/app/models/kabl.model';
-import { sacuvajKablove, saveIds } from '../actions/kablovi.action';
+import { sacuvajKablove, saveIds, izbaciKablove } from '../actions/kablovi.action';
 
 const adapter: EntityAdapter<Kabl> = createEntityAdapter<Kabl>();
 
@@ -28,6 +28,9 @@ const reducer = createReducer (
     on(saveIds, (state, { kabloviIds }) => {
         const newIds = kabloviIds;
         return { ...state, kabloviIds: newIds };
+    }),
+    on(izbaciKablove, (state) => {
+        return adapter.removeAll(state);
     })
 );
 
