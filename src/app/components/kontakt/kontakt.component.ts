@@ -12,4 +12,7 @@ export class KontaktComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  posaljiMail(){
+    alert("Mail poslat");
+  }
 }

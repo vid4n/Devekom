@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  @Output() public tekstZaHeader = new EventEmitter();
+  
   constructor() { }
 
   ngOnInit(): void {
+    this.tekstZaHeader.emit('Dimitrija Tucovića 182, 18250 Niš');
   }
 
 }

@@ -6,6 +6,7 @@ export default class Kabl{
         public tip: string,
         public opis: string,
         public konstrukcija: string,
-        public primena: string
+        public primena: string,
+        public cena: number
     ){}
 }

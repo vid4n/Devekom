@@ -1,8 +1,12 @@
-<h2 style="text-align: center; margin-top: 30px;">Instalacioni kablovi</h2>
+<h2 class="naslov" >Instalacioni kablovi</h2>
 
-<div style="width: 65%; margin-left: 17.5%;">
+<div class="alert alert-success poruka" role="alert">
+  {{ poruka }}
+</div>
+
+<div class = "prikaz" >
   <div *ngFor="let kabl of konacniKablovi" class="card mb-3" >
-    <img src="{{ kabl.slika }}" class="card-img-top" alt="..." style="width: 20rem; margin-left: 20px; margin-top: 20px;">
+    <img src="{{ kabl.slika }}" class="card-img-top slika" alt="...">
     <div class="card-body">
       <h2 class="card-title">{{ kabl.naziv }}</h2>
       <h5 class="card-title">Opis</h5>
@@ -11,8 +15,12 @@
       <p class="card-text">{{ kabl.konstrukcija }}</p>
       <h5 class="card-title">Primena</h5>
       <p class="card-text">{{ kabl.primena }}</p>
-      <button href="#" class="btn btn-primary">Dodaj u korpu </button>
+      <div class="form-group">
+        <h5 for="kolicinaInput" class="card-title">Naruči</h5>
+        <small class="form-text text-muted">Cena kotura: {{ kabl.cena }} eura</small>
+       
+      </div>
+      <button #dodajKabl value="{{ kabl.id }}" (click)="onClick(dodajKabl)" class="btn btn-primary">Dodaj u korpu </button>
     </div>
   </div>
 </div>
-

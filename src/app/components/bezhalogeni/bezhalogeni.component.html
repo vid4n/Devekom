@@ -1,10 +1,26 @@
-<div class="kablovi mb-3">
-    <div *ngFor="let kabl of konacniKablovi" class="card" style="width: 20rem;">
-        <img class="card-img-top" src="{{ kabl.slika }}" alt="Card image cap">
-        <div class="card-body">
-          <h3 class="card-title">{{ kabl.naziv }}</h3>
-          <p class="card-text">{{ kabl.opis }}</p>
-          <button href="#" class="btn btn-primary">Dodaj u korpu </button>
-        </div>
+<h2 class="naslov" >Bezhalogeni kablovi</h2>
+
+<div class="alert alert-success poruka" role="alert">
+  {{ poruka }}
+</div>
+
+<div class = "prikaz" >
+  <div *ngFor="let kabl of konacniKablovi" class="card mb-3" >
+    <img src="{{ kabl.slika }}" class="card-img-top slika" alt="...">
+    <div class="card-body">
+      <h2 class="card-title">{{ kabl.naziv }}</h2>
+      <h5 class="card-title">Opis</h5>
+      <p class="card-text">{{ kabl.opis }}</p>
+      <h5 class="card-title">Konstrukcija</h5>
+      <p class="card-text">{{ kabl.konstrukcija }}</p>
+      <h5 class="card-title">Primena</h5>
+      <p class="card-text">{{ kabl.primena }}</p>
+      <div class="form-group">
+        <h5 for="kolicinaInput" class="card-title">Naruči</h5>
+        <small class="form-text text-muted">Cena kotura: {{ kabl.cena }} eura</small>
+       
+      </div>
+      <button #dodajKabl value="{{ kabl.id }}" (click)="onClick(dodajKabl)" class="btn btn-primary">Dodaj u korpu </button>
     </div>
+  </div>
 </div>

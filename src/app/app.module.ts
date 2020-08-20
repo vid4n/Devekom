@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { AppComponent } from './components/app.component';
 import { HeaderComponent } from './components/header/header.component';
-
+import * as $ from 'jquery';  
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';

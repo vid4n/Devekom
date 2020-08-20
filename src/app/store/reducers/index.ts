@@ -6,7 +6,7 @@ import { KabloviState } from './kablovi.reducer';
 export const getKorpaState = createFeatureSelector('korpa');
 export const getKabloviState = createFeatureSelector('kablovi');
 
-export const getCKabloveIzKorpe = createSelector(
+export const getKabloveIzKorpe = createSelector(
     getKorpaState,
     (korpaState: KorpaState) => korpaState.entities
   );

@@ -11,3 +11,28 @@
     margin-top: 30px;
     margin-right: 30px;
 }
+
+.poruka{
+    margin-top: 7px;
+    margin-left: 10px;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+
+.prikaz{
+    width: 65%;
+    margin-left: 17.5%;
+    margin-bottom: 100px;
+}
+
+.naslov{
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.slika{
+    width: 20rem; 
+    margin-left: 20px; 
+    margin-top: 20px;
+}

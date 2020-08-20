@@ -1,4 +1,4 @@
-<div clas>
+<div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img src="https://devekom.rs/wp-content/uploads/2016/05/a63a57f2-569b-4e0f-bef8-0669ac871368.png" alt="logo" style="width:150px" >
         
@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse "  id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="pocetna">Početna</a>
+              <a class="nav-link" routerLink="/pocetna">Početna</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -25,21 +25,21 @@
                 </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="elektromaterijal">Elektromaterijal</a>
+              <a class="nav-link" routerLink="/elektromaterijal">Elektromaterijal</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="o-preduzecu">O preduzeću</a>
+              <a class="nav-link" routerLink="/o-preduzecu">O preduzeću</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="kontakt">Kontakt</a>
+                <a class="nav-link" routerLink="/kontakt">Kontakt</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="korpa">Korpa</a>
+              <a class="nav-link" routerLink="/korpa">Korpa</a>
             </li>
           </ul>
         </div>
         <span class="navbar-text">
-            Dimitrija Tucovića 182, 18250 Niš
+            {{ adresa }}
         </span>
       </nav>
 </div>

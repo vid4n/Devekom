@@ -1,11 +1,12 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { KabloviState } from 'src/app/store/reducers/kablovi.reducer';
 import { Store, select } from '@ngrx/store';
-import { getIds, getKablovi } from 'src/app/store/reducers';
+import { getKablovi } from 'src/app/store/reducers';
 import Kabl from 'src/app/models/kabl.model';
-import { fetchSveKablove, sacuvajKablove, izbaciKablove } from 'src/app/store/actions/kablovi.action';
 import { KabloviService } from 'src/app/services/kablovi.service';
 import { Router } from '@angular/router';
+import { KorpaState } from 'src/app/store/reducers/korpa.reducer';
+import { dodajUKorpu } from 'src/app/store/actions/korpa.action';
 
 @Component({
   selector: 'app-instalacioni',
@@ -13,16 +14,19 @@ import { Router } from '@angular/router';
   styleUrls: ['./instalacioni.component.css']
 })
 export class InstalacioniComponent implements OnInit {
-
-  public konacniKablovi: Kabl[] = [];
-
+  public vecDodati: number[] = [];
+  public konacniKablovi: Kabl[];
+  public poruka = ""
   constructor(
     private _router: Router,
-    private _kabloviStore: Store<{ kabl: KabloviState }>
+    private _kabloviStore: Store<{ kabl: KabloviState }>,
+    private _kabloviService: KabloviService,
+    private _korpaStore: Store<{ korpa: KorpaState }>
   ){}
 
   ngOnInit(): void {
     this._kabloviStore.pipe(select(getKablovi)).subscribe((data) => {
+      this.konacniKablovi = [];
       if(data){
         for(let value in data) {
           this.konacniKablovi.push(data[value]);
@@ -30,46 +34,42 @@ export class InstalacioniComponent implements OnInit {
       }
     })
   }
+
+  public onClick(dodajKabl: HTMLButtonElement): void {  //na dugme dodaj u korpu dodaje se kabl u korpu, tj store
+ 
+    if(!this.vecJeDodat(parseInt(dodajKabl.value))){  // da li je kabl vec dodat? ako je dodat, ne moze 2 puta isti
+      this._kabloviService
+      .fetchKablById(parseInt(dodajKabl.value))
+      .subscribe((kabl: Kabl) => {
+        this._korpaStore.dispatch(dodajUKorpu({ kabl }));   //dodaje se kabl u store
+        
+        this.poruka = "Kabl dodat u korpu!";  //ispisuje se odgovarajuca poruka dole desno na ekranu
+        
+        this.vecDodati.push(parseInt(dodajKabl.value));  //u niz vecDodati pushujemo id dodatog kabla kako bismo vodili racuna o kablovima koji su vec dodati, i onemogucili da se 2 puta doda isti kabl
+
+        setTimeout(() => {  //nakon 1500ms obavestenje nestaje
+          this.poruka = ""
+        }, 1500);
+      })
+    } else{
+      this.poruka = "Kabl je već dodat";
+
+      setTimeout(() => {
+        this.poruka = ""
+      }, 1500);
+    }
+
+  }
+
+  vecJeDodat(id: number): boolean{  //proverava da li vec imamo kabl sa odredjenim id-jem
+    let ima: boolean = false;
+
+    this.vecDodati.forEach((idDodatogKabla: number) => {
+      if(id == idDodatogKabla){
+        ima = true;
+      }
+    })
+    
+    return ima;
+  }
 }
-
-
-
-// <div class="kablovi ">
-//     <div *ngFor="let kabl of konacniKablovi" class="card" style="width: 20rem;">
-//         <img class="card-img-top" src="{{ kabl.slika }}" alt="Card image cap">
-//         <div class="card-body">
-//           <h3 class="card-title">{{ kabl.naziv }}</h3>
-//           <p class="card-text">{{ kabl.opis }}</p>
-//           <button href="#" class="btn btn-primary">Dodaj u korpu </button>
-//         </div>
-//     </div>
-// </div>
-
-
-
-
-
-
-
-
-
-
-
-// this._kabloviService.fetchSveKablove().subscribe((data) => {
-    //   this.sviKablovi = data;
-
-    //   let kablovi: Kabl[] = [];
-
-    //   this.sviKablovi.forEach(kabl => {
-    //     if(kabl.tip == this.tip)
-    //       kablovi.push(kabl);
-    //   })
-
-    //   this._kabloviStore.dispatch(sacuvajKablove({ kablovi }));
-
-    //   this._kabloviStore.pipe(select(getKablovi)).subscribe((data) => {
-    //     for(let value in data) {
-    //       this.konacniKablovi.push(data[value]);
-    //     }
-    //   })
-    // });

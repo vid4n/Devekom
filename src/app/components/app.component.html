@@ -1,6 +1,6 @@
-<app-header></app-header>
+<app-header [parentData]="adresa"></app-header>
 
 <router-outlet></router-outlet>
 
-<app-footer></app-footer>
+<app-footer (tekstZaHeader)="adresa=$event"></app-footer>
 

@@ -13,8 +13,10 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
+  @Input('parentData') public adresa;
+
   public sviKablovi: Kabl[];
-  
+
   constructor(
     private _kabloviStore: Store<{ kabl: KabloviState }>,
     private _kabloviService: KabloviService,
@@ -28,11 +30,7 @@ export class HeaderComponent implements OnInit {
 
   onClick(vrsta: HTMLLinkElement){
 
-    //event.preventDefault();
-
-    
-
-    this._kabloviStore.dispatch(izbaciKablove()); //najpre praznimo store // ovo ne radi nista
+    this._kabloviStore.dispatch(izbaciKablove()); //najpre praznimo store 
 
     let tip: string = vrsta.href;
     tip = tip.slice(tip.lastIndexOf('/') + 1)  //pribavlja se tip preko href
@@ -47,8 +45,6 @@ export class HeaderComponent implements OnInit {
     })  
   
     this._kabloviStore.dispatch(sacuvajKablove({ kablovi })); //ubacujemo kablove u store
-    
-    //this._router.navigate(['/instalacioni']);
   }
 
 }
